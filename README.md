@@ -1,36 +1,24 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This software is an attendance tracking system meant to aid teachers and professors in understanding the preparedness of their students. The program can access data regarding students located in a cloud database including their name, email address, age, student ID, and other relevant information. The goal of this program is to provide teachers and professors with necessary information regarding their students so they can know which students need the most assistance and how to best assist them.
 
-{Provide a description the software that you wrote and how it integrates with a Cloud Database.  Describe how to use your program.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/I9814mprU5w)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+The cloud database service used is firestore. The database contains collections of students and modules by week. These collections have documents that hold data pertaining to the students and module topics and assignments.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I developed this software in Visual Studio Code using python. In order to directly access the database you need to import the firebase admin library. This allows you to view, insert, and modify data directly in Visual Studio Code.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+Below are some resources available to aid in creating a cloud database and manipulating it.
+
+* [Firebase](https://firebase.google.com/docs)
+* [Firebase Managing data structures](https://firebase.google.com/docs/firestore/manage-data/structure-data)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Some things that I would like to add to this program is the ability to also generate a score of preparedness based on grades as well as attendance.
